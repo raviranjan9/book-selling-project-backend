@@ -9,7 +9,7 @@ import cors from "cors";
 import mongoose  from "mongoose";
 
 //configure env
-dotenv.config({path: './config.env'});
+dotenv.config({path: './.env'});
 mongoose.set('strictQuery', true);
 //databse config
 connectDB();

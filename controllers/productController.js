@@ -6,7 +6,7 @@ import fs from "fs";
 import slugify from "slugify";
 import dotenv from "dotenv";
 
-dotenv.config({path: './config.env'});
+dotenv.config({path: './.env'});
 
 // payment gateway
 var gateway = new braintree.BraintreeGateway({
